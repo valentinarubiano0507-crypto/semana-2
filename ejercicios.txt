@@ -1,0 +1,80 @@
+		#1.
+while True:
+    print("--- Bienvenido al menú ---")
+    print("1. Consultar")
+    print("2. Registrar")
+    print("3. Salir")
+
+    respuesta = int(input("Seleccione una opción: "))
+
+    if respuesta == 1:
+        print("Ud seleccionó Consultar")
+    elif respuesta == 2:
+        print("Ud seleccionó Registrar")
+    elif respuesta == 3:
+        print("Ud seleccionó Salir")
+        break
+    else:
+        print("Opción equivocada")
+		
+		
+
+		#2.
+clave_correcta = 1234
+while True:
+    clave = int(input("Ingrese su contraseña numérica: "))
+
+    if clave == clave_correcta:
+        print("¡Bienvenido al sistema!")
+        break
+    else:
+        print("Clave incorrecta. Intente nuevamente.")
+		
+		
+		
+		#3.
+clave_correcta = 1234
+intentos = 0
+
+while intentos < 3:
+    clave = int(input("Ingrese su contraseña: "))
+
+    if clave == clave_correcta:
+        print("Acceso concedido")
+        break
+    else:
+        print("Clave incorrecta")
+        intentos = intentos + 1
+
+if intentos == 3:
+    print("Cuenta bloqueada")
+	
+	
+	
+		#4.
+nota = float(input("Ingrese una nota entre 0.0 y 5.0: "))
+
+while nota < 0.0 or nota > 5.0:
+    print("Nota inválida. Intente nuevamente.")
+    nota = float(input("Ingrese una nota entre 0.0 y 5.0: "))
+
+print("Nota válida. Puede continuar.")
+
+
+
+		#5.
+respuesta = "S"
+
+while respuesta == "S" or respuesta == "s":
+    print("Procesando solicitud...")
+    print("Operación finalizada.")
+
+    respuesta = input("¿Desea realizar otra operación? (S/N): ")
+
+print("Programa finalizado.")
+
+
+
+		#6.
+
+	
